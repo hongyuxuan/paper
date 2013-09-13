@@ -1,0 +1,42 @@
+[
+    {
+        'scanner': 'scanner1',
+        'islive': '1',
+        'tasknum': '0',
+        'payload': '0.8'
+    }
+    {
+        'scanner': 'scanner2',
+        'islive': '1',
+        'tasknum': '0',
+        'payload': '0.7'
+    }
+    {
+        'scanner': 'scanner3',
+        'islive': '1',
+        'tasknum': '0',
+        'payload': '0.6'
+    }
+    {
+        'scanner': 'scanner4',
+        'islive': '1',
+        'tasknum': '1',  // if tasknum=1, then there is taskId and instanceId here
+        'taskId': 'task2',
+        'instanceId': 'instance1',
+        'payload': '0.3'
+    }
+    {
+        'scanner': 'scanner5',
+        'islive': '0',  // the scanner is crash
+        'tasknum': '1',
+        'taskId': 'task1',
+        'instanceId': 'instance2',
+        'payload': '0.2'
+    }
+    {
+        'scanner': 'scanner5',
+        'islive': '0',  // the scanner is crash
+        'tasknum': '0',
+        'payload': '0.2'
+    }
+]
